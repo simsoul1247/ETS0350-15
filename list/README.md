@@ -27,3 +27,26 @@ clear()
 Removes all elements from the list.
 Leaves you with an empty list.
 Doesn’t delete the list itself — just clears it out.
+
+ copy()
+ Create a shallow copy of a list.
+ Creates a new list that contains references to the same objects as the original list.
+
+count()
+Count the number of occurrences of a specified element in a list. 
+It returns an integer representing how many times that element appears in the list.
+
+index()
+Find the first occurrence of a specified element in a list. 
+It returns the index (position) of that element. 
+If the element is not found, it raises a ValueError.
+
+reverse()
+It reverse the order of the elements in a list in place.
+Original list is modified and the elements are rearranged in the opposite order.
+It does not return a new list; it simply alters the existing one.
+
+sort()
+It sort the elements of a list in ascending order by default.
+It modifies the original list in place and does not return a new list. 
+It can also customize the sorting order using the reverse parameter and the key parameter.
