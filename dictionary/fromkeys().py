@@ -1,4 +1,4 @@
-keys = ['name', 'age', 'hobbies']
+keys = ['name', 'hobbies']
 default_dict = dict.fromkeys(keys)
 print("Dictionary with default values:", default_dict)
 
