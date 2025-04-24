@@ -14,5 +14,5 @@ except KeyError as e:
     print(f"Error: {e}")
 
 university_value = my_dict.pop('university', 'AASTU')
-print(f"Country value: {university_value}")
+print(f"university: {university_value}")
 print(my_dict)
